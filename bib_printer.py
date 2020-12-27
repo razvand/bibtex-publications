@@ -15,6 +15,7 @@ for e in bibdb.entries:
     if 'note' in e.keys():
         if e['note'].find('WOS') != -1:
             wos = e['note'].split(':')[1]
+    j = ""
     if e['ENTRYTYPE'] == 'inproceedings':
         j = e['booktitle']
     elif e['ENTRYTYPE'] == 'article':
