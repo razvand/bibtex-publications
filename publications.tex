@@ -1,0 +1,27 @@
+\documentclass[11pt,a4paper]{article}
+
+% character encoding
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,romanian]{babel}
+
+% Adjust the page margins.
+\usepackage[scale=0.8]{geometry}
+
+\title{My Publications}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\renewcommand\refname{}
+\renewcommand\bibname{}
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}
+
+\end{document}
