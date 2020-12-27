@@ -21,4 +21,4 @@ $(PDF): $(TEX) $(BIB)
 
 clean:
 	-test -d $(OUT_DIR) && rm -fr $(OUT_DIR)
-	-rm -f $(PDF) $(PDF_EN)
+	-rm -f $(PDF)
